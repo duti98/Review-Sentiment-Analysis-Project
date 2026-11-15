@@ -47,7 +47,7 @@ python run_experiments.py --stage all  # needs a GPU; about 1.5 h on a Colab T4
 python analyse.py
 ```
 
-After the GPU run, `python export_compact.py` (on the GPU machine) and `python rebuild_from_export.py` (anywhere) recreate every table and figure in the report from a 6 KB text file. That file for our run is committed as `results/colab_export.txt`, so the report numbers can be checked without a GPU.
+After the GPU run, `python export_compact.py` (on the GPU machine) and `python rebuild_from_export.py` (anywhere) recreate every table and figure in the report from a 6 KB text file. That file for my run is committed as `results/colab_export.txt`, so the report numbers can be checked without a GPU.
 
 `run_experiments.py` appends every finished run to `results/runs.jsonl` and skips runs that are already there, so it can be restarted after a disconnect. Set `RESULTS_DIR` to write results somewhere else (for example a mounted Google Drive folder).
 
