@@ -1,0 +1,12 @@
+{
+  "model": "tfidf_logreg",
+  "best_params": {
+    "clf__C": "16",
+    "clf__class_weight": "balanced",
+    "tfidf__ngram_range": "(1, 2)"
+  },
+  "cv_acc": 0.9279827050398595,
+  "cv_f1_macro": 0.8508670541210037,
+  "grid_time_s": 14.151946783065796,
+  "n_features": 45492
+}
