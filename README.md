@@ -53,7 +53,7 @@ After the GPU run, `python export_compact.py` (on the GPU machine) and `python r
 
 On Colab, open `notebooks/colab_gpu_experiments.ipynb`, set the runtime to T4 GPU, and run all cells.
 
-All randomness we control is seeded (42 for the split and folds; 42, 43 and 44 for the encoder comparison). Mixed-precision GPU training is not bit-for-bit repeatable, so reruns land close to, not exactly on, our numbers.
+All controlled randomness is seeded (42 for the split and folds; 42, 43 and 44 for the encoder comparison). Mixed-precision GPU training is not bit-for-bit repeatable, so reruns land close to, not exactly on, my numbers.
 
 ## Group
 
