@@ -57,4 +57,4 @@ All randomness we control is seeded (42 for the split and folds; 42, 43 and 44 f
 
 ## Group
 
-Hong Si Wei Nicholas, Gabriel d'Hauteville
+Gabriel d'Hauteville
