@@ -1,6 +1,6 @@
 # Sentiment classification of product reviews
 
-IE4483 Artificial Intelligence and Data Mining, mini project (option 1), NTU.
+Artificial Intelligence and Data Mining Project, NTU.
 
 Binary sentiment classification (0 = negative, 1 = positive) of 7,401 labelled product reviews, with predictions for 1,851 unlabelled test reviews. We compare three feature formats (TF-IDF, GloVe word vectors, pretrained transformer encoders) and submit a fine-tuned transformer ensemble.
 
